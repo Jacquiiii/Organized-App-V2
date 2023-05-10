@@ -9,7 +9,7 @@ const HeaderWrapper = styled.section`
   flex-wrap: wrap;
   overflow: auto;
   padding: 1em 1em;
-  background-color: ${(props) => props.theme === 'light' ? 'whitesmoke' : '#232B2B'};
+  background-color: ${(props) => props.theme === 'light' ? '#EAEAEA' : '#232B2B'};
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
   font-family: sans-serif;
 `
@@ -22,7 +22,7 @@ const LoggedOutHeaderWrapper = styled.section`
   flex-wrap: wrap;
   overflow: auto;
   padding: 1em 1em;
-  background-color: ${(props) => props.theme === 'light' ? 'whitesmoke' : '#232B2B'};
+  background-color: ${(props) => props.theme === 'light' ? '#EAEAEA' : '#232B2B'};
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
   font-family: sans-serif;
 `
