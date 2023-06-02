@@ -13,9 +13,9 @@ import {
 import storage from 'redux-persist/lib/storage'
 
 // Slices
-import loginReducer from './features/loginSlice'
-import { usersAPI } from './features/usersApiSlice'
-import { tasksAPI } from './features/tasksApiSlice'
+import loginReducer from './slices/loginSlice'
+import { usersAPI } from './slices/usersApiSlice'
+import { tasksAPI } from './slices/tasksApiSlice'
 
 // Config for persisting state on refresh
 const persistConfig = { key: 'root', storage}

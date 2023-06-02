@@ -4,8 +4,8 @@ import { useDispatch } from 'react-redux'
 import { useDebounce } from 'use-debounce'
 
 // Store & slices
-import { loginSuccess, setUserId } from '../../store/features/loginSlice'
-import { useGetUserByEmailQuery } from '../../store/features/usersApiSlice'
+import { loginSuccess, setUserId } from '../../store/slices/loginSlice'
+import { useGetUserByEmailQuery } from '../../store/slices/usersApiSlice'
 
 // Styles
 import { SignedOutWrapper, Button, Form, Input } from './styles'

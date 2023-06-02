@@ -7,7 +7,7 @@ import SignedOut from './LoggedOut'
 import SignedIn from './LoggedIn'
 
 // Store & slices
-import { logoutSuccess, setUserId } from '../../store/features/loginSlice'
+import { logoutSuccess, setUserId } from '../../store/slices/loginSlice'
 
 // Context
 import { ThemeContext } from '../../providers/ThemeProvider'
